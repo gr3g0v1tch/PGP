@@ -1,5 +1,6 @@
 import gnupg
 
+#function to know the dictionary length
 def file_lengthy(fname):
         i=0
         with open(fname,'rb') as f:
